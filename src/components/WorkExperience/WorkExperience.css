@@ -1,0 +1,21 @@
+.work-experience__job-heading {
+  color: var(--main-text-color);
+  margin: 10px 0 10px 0;
+  background-color: var(--text-background);
+  width: fit-content;
+  font-size: var(--heading-font-size);
+}
+
+.work-experience__description {
+  color: var(--second-text-color);
+  background-color: var(--second-background-color);
+  width: fit-content;
+  max-width: 768px;
+  font-size: var(--text-font-size);
+}
+
+@media screen and (min-width: 768px) {
+  .work-experience__job-heading {
+    margin: 20px 0 20px 0;
+  }
+}

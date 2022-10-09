@@ -1,0 +1,26 @@
+.project {
+  margin: 10px 0;
+}
+
+.project:last-child {
+  margin: 0;
+}
+
+.project__text-setting {
+  width: fit-content;
+  color: var(--main-text-color);
+  background-color: var(--text-background);
+  font-size: var(--text-font-size);
+}
+
+.project__github-link-item {
+  text-decoration: none;
+  color: var(--links-color);
+  font-size: var(--text-font-size);
+  background-color: var(--links-background);
+}
+
+.project__github-link-item:hover {
+  opacity: 0.5;
+  text-decoration: underline;
+}
